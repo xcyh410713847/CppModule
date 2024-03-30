@@ -3,7 +3,7 @@
 add_library(TestModule2)
 target_sources(TestModule2
     PUBLIC
-    FILE_SET cxx_modules TYPE CXX_MODULES FILES
+    FILE_SET CXX_MODULES FILES
     TestModule2_1.cppm
     TestModule2_2.cppm
 )

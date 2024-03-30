@@ -2,7 +2,7 @@
 add_library(TestModule1)
 target_sources(TestModule1
     PUBLIC
-    FILE_SET cxx_modules TYPE CXX_MODULES FILES
+    FILE_SET CXX_MODULES FILES
     TestModule1.cppm
 )
 target_link_libraries(${project_name} TestModule1)
