@@ -1,6 +1,5 @@
 ﻿// main.cpp
 
-import TestModule;
 import TestModule1;
 import TestModule2.Print1;
 import TestModule2.Print2;
@@ -8,8 +7,6 @@ import TestModule3;
 
 int main()
 {
-    TestModule();
-
     TestModule1();
 
     TestModule2_Print1();

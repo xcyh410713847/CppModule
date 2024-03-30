@@ -16,15 +16,6 @@ set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 add_executable(${project_name} main.cpp)
 
-# TestModule
-add_library(TestModule)
-target_sources(TestModule
-    PUBLIC
-    FILE_SET cxx_modules TYPE CXX_MODULES FILES
-    TestModule.cppm
-)
-target_link_libraries(${project_name} TestModule)
-
 add_subdirectory(TestModule1)
 add_subdirectory(TestModule2)
 add_subdirectory(TestModule3)
