@@ -5,7 +5,7 @@ import TestModule2.Print1;
 import TestModule2.Print2;
 import TestModule3;
 import TestModule4;
-import TestModule5.Part1.Test1;
+import TestModule5;
 
 int main()
 {
