@@ -21,6 +21,9 @@ int main()
 
     TestModule5_Print1_1();
     TestModule5_Print1_2();
+    TestModule5_Print2();
+    TestModule5_Print3_1();
+    TestModule5_Print3_2();
 
     return 0;
 }
