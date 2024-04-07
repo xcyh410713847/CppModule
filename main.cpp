@@ -7,6 +7,8 @@ import TestModule3;
 import TestModule4;
 import TestModule5;
 import TestModule6;
+import TestModule7.Part1;
+import TestModule7.Part2;
 
 int main()
 {
@@ -29,6 +31,12 @@ int main()
     TestModule6Class testModule6Class;
     testModule6Class.Print1();
     testModule6Class.Print2();
+
+    TestModule7::Part1::TestModule7Class testModule7Class;
+    testModule7Class.Print();
+
+    TestModule7::Part2::TestModule7Class testModule7Class2;
+    testModule7Class2.Print();
 
     return 0;
 }
