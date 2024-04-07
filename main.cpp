@@ -7,8 +7,7 @@ import TestModule3;
 import TestModule4;
 import TestModule5;
 import TestModule6;
-import TestModule7.Part1;
-import TestModule7.Part2;
+import TestModule7;
 
 int main()
 {
