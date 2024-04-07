@@ -20,6 +20,7 @@ int main()
     TestModule4();
 
     TestModule5_Print1_1();
+    TestModule5_Print1_2();
 
     return 0;
 }

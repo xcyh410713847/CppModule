@@ -4,4 +4,5 @@ module;
 
 export module TestModule5.Part1;
 export import TestModule5.Part1.Test1;
+export import TestModule5.Part1.Test2;
 
