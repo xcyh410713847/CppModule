@@ -16,6 +16,7 @@ set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 add_executable(${project_name} main.cpp)
 
+add_subdirectory(TestModule0)
 add_subdirectory(TestModule1)
 add_subdirectory(TestModule2)
 add_subdirectory(TestModule3)
